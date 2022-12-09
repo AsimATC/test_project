@@ -1,1 +1,1 @@
-Merhaba, Ben Asım ATICI
+Merhaba, Ben {{ $soyisim }} - {{ $isim }}
