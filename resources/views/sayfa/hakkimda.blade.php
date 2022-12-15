@@ -1,1 +1,3 @@
-Merhaba, Ben {{ $soyisim }} - {{ $isim }}
+Merhaba, {{$dizi['adi']}}
+<br>
+soyad : {{$dizi['soyadi']}}
