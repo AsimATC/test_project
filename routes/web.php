@@ -6,11 +6,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view("welcome");
+    return view("anasayfa");
 });
-
-Route::get("/asi", [SayfalarController::class, "asi" ]);
-
 
 
 
