@@ -6,15 +6,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\sayfalarControllers;
 use App\Http\Controllers\linklerControllers;
 
+
+
 Route::get('/', function () {
-    return view("anasayfa");
+    return view("welcome");
 });
-
-Route::get('/url', function () {
-
-    return view("urldegisken");
-});
-
-Route::get('/hakkimizda', [sayfalarControllers::class,'sayfa']);
-
 

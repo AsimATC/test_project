@@ -1,3 +1,0 @@
-<div>
-    {{ asset('urldegisken') }}
-</div>
