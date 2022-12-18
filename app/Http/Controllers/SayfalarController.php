@@ -14,6 +14,7 @@ class SayfalarController extends Controller
             "adi" => "Asım",
             "soyadi" => "Atıcı"
         ];
+
         return view("sayfa.hakkimda")->with("diziler", $dizi);
     }
 }

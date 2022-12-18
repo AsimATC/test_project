@@ -1,3 +1,4 @@
-Merhaba, {{$dizi['adi']}}
+Merhaba, {{$diziler['adi']}}
 <br>
-soyad : {{$dizi['soyadi']}}
+soyad : {{$diziler['soyadi']}}
+
